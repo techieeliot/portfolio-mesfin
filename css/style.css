@@ -31,9 +31,32 @@ body {
 
 }
 
-#welcome-section {
-    height: 100vh;
-    background: #cc6e6e;
+section {
     margin-top: -20px;
+}
+
+#welcome-section,#skills,#projects,#education,#contact  {
+    height: 100vh;
+   
+
+}
+#welcome-section{
+    
+    background: #ddd9d9;
+
+}
+#skills{
+    
+    background: hsl(0, 96%, 52%);
+}
+#projects{
+    background-color: blue;
+
+}
+#education {
+background-color: bisque;
+}
+#contact {
+    background-color: aqua;
 
 }
