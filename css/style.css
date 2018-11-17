@@ -122,3 +122,15 @@ vertical-align: middle;
     height: 50vh;
     background-color: #000;
 }
+
+/*CONTACT Section*/
+.mui-form {
+    width: 80%;
+    margin-top: 40px;
+    padding-left: 200px;
+    vertical-align: middle;
+
+}
+.mui-btn{
+    background-color: #e28c05;
+}
