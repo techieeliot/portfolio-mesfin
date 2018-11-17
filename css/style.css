@@ -1,4 +1,11 @@
 /*Style sheet-Portfolio site*/
+/****************************************************************
+    Few Rules
+    - Primary color: is white
+    -secondary color:  #E6E6E6;
+    -orange color around logo and footer links: #FFC266 ()
+  *******************************************************************/
+
 html {
     scroll-behavior: smooth;
 }
@@ -74,4 +81,8 @@ section {
 #contact {
     background-color: aqua;
 
+}
+#footer{
+    height: 50vh;
+    background-color: #000;
 }
