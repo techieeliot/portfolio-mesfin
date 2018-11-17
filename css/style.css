@@ -1,1 +1,32 @@
 /*Style sheet-Portfolio site*/
+html,body {
+    margin: 0;
+    padding: 0;
+}
+#navbar {
+    background-color: rgb(92, 78, 78);
+    height: 90px;
+}
+#navbar ul{
+    float: right;
+}
+
+#navbar ul li  {
+list-style: none;
+display: inline;
+margin-right: 50px;
+
+}
+#navbar ul li a {
+    text-transform: uppercase;
+    color: azure;
+  
+}
+
+
+#welcome-section {
+    height: 100%;
+    background: #cc6e6e;
+    margin-top: -20px;
+
+}
