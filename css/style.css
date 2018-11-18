@@ -4,6 +4,8 @@
     - Primary color: is white
     -secondary color:  #E6E6E6;
     -orange color around logo and footer links: #FFC266 ()
+    -#e1e2e1 light- grey color 
+    -#919292  Dark-Grey
   *******************************************************************/
 
 html {
@@ -101,20 +103,20 @@ vertical-align: middle;
 
 #skills {
 
-    background: hsl(0, 96%, 52%);
+    background: #919292;
 }
 
 #projects {
-    background-color: blue;
+    background-color: #e1e2e1
 
 }
 
 #education {
-    background-color: bisque;
+    background-color: #fff;
 }
 
 #contact {
-    background-color: aqua;
+    background-color: #e28c05;
 
 }
 #footer{
