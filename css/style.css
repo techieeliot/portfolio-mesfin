@@ -70,7 +70,6 @@ body {
 
 #welcome-section {
 
-background-repeat: no-repeat;
 width: 100%;
 display: inline-block;
 vertical-align: middle;
@@ -78,8 +77,8 @@ vertical-align: middle;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-image: url('../images/bg3.jpg');
-    /*filter: blur(8px);
-    -webkit-filter: blur(8px);*/
+    /*filter: blur(3px);
+    -webkit-filter: blur(3px);*/
 
 }
 .about_me{
