@@ -6,6 +6,7 @@
     -orange color around logo and footer links: #FFC266 ()
     -#e1e2e1 light- grey color 
     -#919292  Dark-Grey
+    -#aa5e00 DARK ORANGE
   *******************************************************************/
 
 html {
@@ -101,11 +102,26 @@ body {
     /*width: 100%;*/
 }
 #mt{
-    border: 2px solid #e28c05;
+    
     background: #e28c05;
-    padding: 5px;
-    font-weight: 800;
+    padding: 4px;
+    font-size: 5vh;
+   
+    color: #fff;
+
 }
+ #mt:hover {
+    background: #aa5e00;
+    cursor: pointer;
+
+}
+
+.mt_link {
+    text-decoration: none!important;
+    cursor: pointer;
+    
+}
+
 
 #navbar ul {
     float: right;
@@ -114,13 +130,22 @@ body {
 #navbar ul li {
     list-style: none;
     display: inline;
-    margin-right: 50px;
+    margin-right: 20px;
 
 }
+#navbar ul li a:hover {
+    color:#000 !important;
+    background-color:#e28c05!important;
+}
+#navbar li a:active{
+    border:1px dotted #fff!important;
+    
+} 
+
 
 #navbar ul li a {
     text-transform: uppercase;
-    color: azure;
+    color: #fff;
     text-decoration: none;
 
 }
@@ -150,10 +175,14 @@ vertical-align: middle;
     /*background-position: 50% 50%;*/
     background-repeat: no-repeat;
     background-image: url('../images/bg2_about.jpg');
-    /*filter: blur(3px);
-    -webkit-filter: blur(3px);*/
+    
 
 }
+.blur_image {
+    filter: blur(1.5px);
+    -webkit-filter: blur(1.5px);
+}
+
 .about_me{
   color: white;
   font-weight: bold;
@@ -167,6 +196,10 @@ vertical-align: middle;
   width: 60%;
   padding: 20px;
   text-align: center;
+}
+.about_me header ,p {
+    filter: blur(1.5px);
+    -webkit-filter: blur(1.5px);
 }
 .about_me p {
     font-size: 4vh;
