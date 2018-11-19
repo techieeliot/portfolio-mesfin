@@ -105,7 +105,8 @@ body {
     
     background: #e28c05;
     padding: 4px;
-    font-size: 5vh;
+    font-size: 3vh;
+
    
     color: #fff;
 
@@ -119,6 +120,7 @@ body {
 .mt_link {
     text-decoration: none!important;
     cursor: pointer;
+    margin-left: 100px;
     
 }
 
@@ -137,8 +139,9 @@ body {
     color:#000 !important;
     background-color:#e28c05!important;
 }
-#navbar li a:active{
-    border:1px dotted #fff!important;
+#navbar ul li a:active{
+    border-bottom:2px solid #fff;
+    padding-bottom: 15px;
     
 } 
 
