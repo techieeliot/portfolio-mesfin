@@ -29,10 +29,23 @@ body {
     flex-basis: 100%;
 }
 /*Media Query*/
+@media screen and (min-width: 575px){
+    .container {
+        flex-direction: row;
+    }
+    #navbar ul li a{
+       
+        flex-direction: column;
+        flex: 1;
+        color: red;
+        
+    }
+
+}
 @media screen and (min-width: 800px){
         .section {
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
             flex-wrap: nowrap;
 
         }
@@ -52,6 +65,7 @@ body {
             max-width: 100%;
 
         }
+       
 }
 * {
     box-sizing: border-box;
