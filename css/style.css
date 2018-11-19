@@ -29,6 +29,19 @@ body {
     flex-basis: 100%;
 }
 /*Media Query*/
+@media screen and (min-width: 320px){
+    .container {
+        flex-direction: column;
+    }
+    .mui-form{
+        max-width: 100%;
+        
+
+    }
+   
+
+}
+
 @media screen and (min-width: 575px){
     .container {
         flex-direction: row;
@@ -176,7 +189,7 @@ vertical-align: middle;
 
 /*CONTACT Section*/
 .mui-form {
-    width: 50%;
+    width: 60% ;
     margin-top: 40px;
     margin: 0 auto;
 
