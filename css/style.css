@@ -34,7 +34,9 @@ body {
         flex-direction: column;
     }
     .mui-form{
-        max-width: 100%;
+        width: 100%;
+        margin-left: 20px;
+        color: red;
         
 
     }
@@ -92,11 +94,17 @@ body {
 
 #navbar {
     background-color: rgb(92, 78, 78);
-    height: 70px;
+    /*height: 70px;*/
     position: fixed;
     z-index: 2;
     overflow: hidden;
-    width: 100%;
+    /*width: 100%;*/
+}
+#mt{
+    border: 2px solid #e28c05;
+    background: #e28c05;
+    padding: 5px;
+    font-weight: 800;
 }
 
 #navbar ul {
