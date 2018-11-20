@@ -31,6 +31,7 @@ body {
 }
 /*Media Query*/
 @media screen and (min-width: 320px){
+  
     .container {
         flex-direction: column;
     }
@@ -41,6 +42,7 @@ body {
         
 
     }
+     
    
 
 }
@@ -55,6 +57,12 @@ body {
 
     }
    
+
+}
+@media screen and (max-width: 505px){
+    .mt_link {
+        margin: 0 auto;
+    }
 
 }
 @media screen and (min-width: 800px){
@@ -83,6 +91,22 @@ body {
         }
        
 }
+
+@media screen and(max-width: 963px){
+   
+    #mt {
+        margin: 0 auto;
+     }
+     #junior {
+         margin-top: 10px;
+         margin: 0 auto;
+     }
+     #navbar ul li a{
+         font-size: 10px;
+         background: red;
+     }
+
+}
 * {
     box-sizing: border-box;
   }
@@ -94,21 +118,21 @@ body {
   }
 
 #navbar {
-    background-color: rgb(92, 78, 78);
+    background-color: #000;
     /*height: 70px;*/
     position: fixed;
     z-index: 2;
-    overflow: hidden;
+    left: 0px;
     /*width: 100%;*/
 }
+
 #mt{
     
     background: #e28c05;
-    padding: 4px;
+    padding: 7px;
     font-size: 3vh;
-
-   
     color: #fff;
+    margin-right: 225px;
 
 }
  #mt:hover {
@@ -121,7 +145,25 @@ body {
     text-decoration: none!important;
     cursor: pointer;
     margin-left: 100px;
-    
+    height: 49px;
+    width: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+.mt_link:hover {
+    background-color:#000!important;
+}
+#junior:hover {
+    background-color:#000!important;
+}
+
+#junior{
+    color: #fff;
+    display: block;
+    margin-top: -17px;
+
 }
 
 
@@ -132,7 +174,7 @@ body {
 #navbar ul li {
     list-style: none;
     display: inline;
-    margin-right: 20px;
+    margin-right: 15px;
 
 }
 #navbar ul li a:hover {
