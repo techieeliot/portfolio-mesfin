@@ -1,107 +1,160 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,300,900' rel='stylesheet' type='text/css'>
     <link href="//cdn.muicss.com/mui-0.9.41/css/mui.min.css" rel="stylesheet" type="text/css" />
-    <script src="//cdn.muicss.com/mui-0.9.41/js/mui.min.js"></script>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="shortcut icon"   href="https://mesfint.github.io/portfolio/images/favicon.ico?v=2" type="image/x-icon">
     <link rel="stylesheet" href="css/style2.css">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <title>Portfolio Website by @MesfinT | https://mesfint.github.io/portfolio/</title>
 </head>
-<body>
-    <div class="container">
-       <div class="w3-row-padding">
+  </head>
+  <body>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top ">
+                <a class="navbar-brand" href="#projects">MT<span>Junior Front End Developer</span></a>
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+          
+                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+              <ul class="navbar-nav ml-auto">
+                  <li class ="nav-item">
+                      <a class = "nav-link" href="#about">ABOUT</a>
+                      
+                  </li>
+                  <li class ="nav-item">
+                      <a class = "nav-link" href="#skills">SKILLS</a>
+                      
+                  </li>
+                  <li class ="nav-item">
+                      <a class = "nav-link" href="#projects">PROJECTS</a>
+                      
+                  </li>
+                  <li class ="nav-item">
+                      <a class = "nav-link" href="#contact">CONTACT</a>
+                      
+                  </li>
+              </ul>
+              </div>
+          </nav>
 
+          <!--Sections-->
+          <section id="welcome-section">
            
-
-            <div class="w3-col m8 l9">
+                <div class="about_me">
+                        <header> Mesfin  Tegegne Portfolio</header>
+                         <p>Junior Front End Developer</p>
+                         </div>
+                
+            </section>
+            <section id="skills">
                    
-    <nav id="navbar" class="w3-bar  w3-top">
-            
-                    <a href="#projects" class="w3-bar-item w3-button mt_link"><b> <span id="mt" >MT</span> </b> <span id="junior"> Junior Front End Developer</span></a>
-            
-           
-    <!-- Float links to the right. Hide them on small screens -->
-
-        <ul  class="w3-right ">
-           
-            <li><a href="#welcome-section" class="w3-bar-item w3-button">about</a></li>
-            <li><a href="#skills" class="w3-bar-item w3-button">skills</a></li>
-            <li><a href="#projects" class="w3-bar-item w3-button">projects</a></li>
-            <!--<li><a href="#resume">resume</a></li>-->
-            <li><a href="#education" class="w3-bar-item w3-button">education</a></li>
-            <li><a href="#contact" class="w3-bar-item w3-button">contact</a></li>
-        </ul>
-    </div>
-    </nav>
-</div>
-
-<main>
-        <section id="welcome-section">
-            <div class="column _100">
-        <div class="about_me">
-                <header> Mesfin  Tegegne Portfolio</header>
-                 <p>Junior Front End Developer</p>
+                    <h1>Skills</h1>
+        
+                     
+            </section>
+        
+            <section id="projects">
+                 
+                    <h1>Projects</h1>
+        
+                 <div class="project-tile">
+                     <a href="#"></a>
+                     <a id="profile-link" href="#gitHubProfile"></a>
                  </div>
-        </div>
-    </section>
-    <section id="skills">
-            <div class="column _100">
-            <h1>Skills</h1>
-
-                </div>
-    </section>
-
-    <section id="projects">
-            <div class="column _33.33">
-            <h1>Projects</h1>
-
-         <div class="project-tile">
-             <a href="#"></a>
-             <a id="profile-link" href="#gitHubProfile"></a>
-         </div>
-         </div>
-    </section>
-    <section id="education">
-            <div class="column _100">
-            <h1>Education</h1>
-            </div>
-
-    </section>
-    <section id="contact">
-            <div class="column _100">
-            <h1>Contact</h1>
-            <form class="mui-form" action="https://formspree.io/mesfin_meng@yahoo.com" method="POST">
-                    <legend>Contact Me</legend>
-                    <div class="mui-textfield mui-textfield--float-label">
-                      <input type="email" name="email" required>
-                      <label>Email</label>
-                    </div>
-                    <div class="mui-textfield mui-textfield--float-label">
-                      <input type="text" value="" name="subject" required>
-                      <label>Subject</label>
-                    </div>
-                    <div class="mui-textfield mui-textfield--float-label">
-                      <textarea  name="messages" required></textarea>
-                      <label>Message</label>
-                    </div>
-                    <button type="submit" class="mui-btn mui-btn--raised" name ="Submit"value ="Submit">Submit</button>
-                  </form>
-                  </div>
-
-    </section>
-    <section id="footer">
-            <div class="column _25"></div>
-        <h1>footer</h1>
-    </section>
-
-</main>
-</div><!--End of Container-->
+               
+            </section>
+            <section id="education">
+                  
+                    <h1>Education</h1>
+                   
+        
+            </section>
+            <section id="contact">
+                   
+                    <h1>Contact</h1>
+                    <form class="mui-form" action="https://formspree.io/mesfin_meng@yahoo.com" method="POST">
+                            <legend>Contact Me</legend>
+                            <div class="mui-textfield mui-textfield--float-label">
+                              <input type="email" name="email" required>
+                              <label>Email</label>
+                            </div>
+                            <div class="mui-textfield mui-textfield--float-label">
+                              <input type="text" value="" name="subject" required>
+                              <label>Subject</label>
+                            </div>
+                            <div class="mui-textfield mui-textfield--float-label">
+                              <textarea  name="messages" required></textarea>
+                              <label>Message</label>
+                            </div>
+                            <button type="submit" class="mui-btn mui-btn--raised" name ="Submit"value ="Submit">Submit</button>
+                          </form>
+                         
+        
+            </section>
+            <section id="footer">
+                    
+                <h1>footer</h1>
+            </section>
     
-   <!-- <script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-</body>
+
+     <!-- <script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+       
+
+
+        
+
+
+
+    
+  
