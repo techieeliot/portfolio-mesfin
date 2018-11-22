@@ -1,10 +1,9 @@
 /*Style sheet-Portfolio site*/
 /****************************************************************
     Few Rules
-    - Primary color: is white
-    -secondary color:  #E6E6E6;
-    -orange color around logo and footer links: #FFC266 ()
-    -#e1e2e1 light- grey color 
+    - Primary color: #525252 light dark
+    -secondary color:  #414141 Medium dark
+    -Third color: #313131 Dark
     -#919292  Dark-Grey
     -#aa5e00 DARK ORANGE
   *******************************************************************/
@@ -19,7 +18,7 @@ body {
     padding: 0;
     height: 100vh;
     font-family: 'Lato', sans-serif;
-    background: #fff;
+    
 
 
 }
@@ -77,37 +76,29 @@ body {
 #navbar {
   
     z-index: 2;
+    /*background: #313131;*/
 }
 
-#welcome-section,
-#skills,
-#projects,
-#education,
-#contact {
+ section {
     height: 100vh;
 
 }
 
-#welcome-section {
-
-    width: 100%;
-    display: inline-block;
-    vertical-align: middle;
+.bg_image {
+    background-image: url('../images/bg2_about.jpg');
+    height: 100%;
     background-size: cover;
     /*background-position: 50% 50%;*/
     background-repeat: no-repeat;
-    background-image: url('../images/bg2_about.jpg');
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+ 
 
 
-}
-
-.blur_image {
-    filter: blur(1.5px);
-    -webkit-filter: blur(1.5px);
 }
 
 .about_me {
-    color: white;
+    color: #fff;
     font-weight: bold;
     font-size: 8vh;
     border: 3px solid #e28c05;
@@ -121,37 +112,37 @@ body {
     text-align: center;
 }
 
-.about_me header,
+/*.about_me header,
 p {
     filter: blur(1.5px);
     -webkit-filter: blur(1.5px);
 }
-
+*/
 .about_me p {
     font-size: 4vh;
 }
 
 #skills {
 
-    background: #919292;
+    background: #313131;
 }
 
 #projects {
-    background-color: #e1e2e1
+    background-color: #525252
 }
 
 #education {
-    background-color: #fff;
+    background-color: #414141;
 }
 
 #contact {
-    background-color: #e1e2e1;
+    background-color: #525252;
 
 }
 
 #footer {
     height: 50vh;
-    background-color: #000;
+    background-color: #313131;
     color: #ffbc45;
     ;
 }
@@ -165,11 +156,9 @@ p {
     vertical-align: middle;
 
 }
-
 .mui-form label {
     color: #000;
 }
-
 .mui-btn {
     background-color: #ffbc45;
 }
