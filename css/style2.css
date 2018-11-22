@@ -16,34 +16,31 @@ html,
 body {
     margin: 0;
     padding: 0;
+    background: #525252;
     height: 100vh;
-    font-family: 'Lato', sans-serif;
-    
-
-
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+.container-fluid {
+    padding: 3% 5%;
 }
 
-/*
+li {
+    list-style: none;
+}
 
-* {
-    box-sizing: border-box;
-}*/
-/*
-#navbar {
-    background-color: #000;
-    /*height: 70px;*/
-    /*position: fixed;
-    z-index: 2;
-
-    /*width: 100%;*/
-/*}*/
-/*
 #mt {
-
+    font-family: 'Ubuntu', sans-serif;
     background: #e28c05;
     padding: 7px;
     font-size: 3vh;
+    font-weight: 400;
     color: #fff;
+
+    /*width: 50px;
+    height: 50px;*/
+  transform: skew(20deg);
+      
 
 
 }
@@ -54,32 +51,35 @@ body {
 
 }
 
-#navbar ul li a:hover {
+.navbar-nav .nav-item a {
+    color: #fff !important;
+
+}
+
+.navbar-nav .nav-item a:hover {
     color: #000 !important;
     background-color: #e28c05 !important;
 }
 
-#navbar ul li a:active {
+.navbar-nav .nav-item a:active {
     border-bottom: 2px solid #fff;
 
 
 }
 
-
-/*#navbar ul li a {
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-
+p {
+    font-family: 'Montserrat-Thin', sans-serif;
+    color: #efefef;
+    font-size: 1rem;
+    line-height: 1.5;
 }
-*/
+
 #navbar {
-  
+
     z-index: 2;
-    /*background: #313131;*/
 }
 
- section {
+section {
     height: 100vh;
 
 }
@@ -88,12 +88,9 @@ body {
     background-image: url('../images/bg2_about.jpg');
     height: 100%;
     background-size: cover;
-    /*background-position: 50% 50%;*/
     background-repeat: no-repeat;
     filter: blur(6px);
     -webkit-filter: blur(6px);
- 
-
 
 }
 
@@ -112,14 +109,17 @@ body {
     text-align: center;
 }
 
-/*.about_me header,
-p {
-    filter: blur(1.5px);
-    -webkit-filter: blur(1.5px);
-}
-*/
+
 .about_me p {
+    font-family: 'Montserrat', sans-serif;
     font-size: 4vh;
+}
+
+.about_me h1 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    size: 3rem;
+    line-height: 1.5;
+
 }
 
 #skills {
@@ -141,24 +141,48 @@ p {
 }
 
 #footer {
-    height: 50vh;
+    height: 100%;
     background-color: #313131;
     color: #ffbc45;
-    ;
+    padding: 7% 5%;
+
 }
+
+.profile img {
+    padding-right: 15px;
+}
+
+.social li {
+    background: #fff;
+    border-bottom: 1px solid #000;
+    padding: 20px 10px;
+    display: block;
+    font-family: 'Montserrat-Bold', sans-serif;
+
+
+}
+
 
 /*CONTACT Section*/
 .mui-form {
     width: 60%;
     margin-top: 40px;
     margin: 0 auto;
-
     vertical-align: middle;
+}
 
+.mui-form label,
+legend {
+    color: #fff;
 }
-.mui-form label {
-    color: #000;
+
+.mui-form legend {
+    color: #fff;
 }
+
 .mui-btn {
     background-color: #ffbc45;
+}
+.btn-warning {
+    background: #e28c05;
 }
