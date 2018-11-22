@@ -23,7 +23,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 5%;
+    /*padding: 3% 5%;*/
 }
 
 li {
@@ -33,7 +33,7 @@ li {
 #mesfint {
     font-family: 'Ubuntu', sans-serif;
     font-size: 3vh;
-    font-weight: 350;
+    font-weight: bold;
     color: #fff;
     margin-left: 38px;
     padding-left: -10px;
@@ -70,18 +70,23 @@ li {
     border: 1px solid #fff;
 
 }
+.nav-item {
+    padding: 0 10px;
+}
 
-.navbar-nav .nav-item a {
+.nav-link {
     color: #fff !important;
+    font-size: .8rem;
+    font-family: "Montserrat";
 
 }
 
-.navbar-nav .nav-item a:hover {
+.nav-link:hover {
     color: #000 !important;
     background-color: #e28c05 !important;
 }
 
-.navbar-nav .nav-item a:active {
+.nav-link:active {
     border-bottom: 2px solid #fff;
 
 }
@@ -94,8 +99,8 @@ p {
 }
 
 #navbar {
-
-    z-index: 2;
+padding-bottom: 4.5rem;
+ z-index: 2;
 }
 
 section {
