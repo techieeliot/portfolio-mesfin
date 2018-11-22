@@ -29,7 +29,7 @@ li {
     list-style: none;
 }
 
-#mt {
+/*#mt {
     font-family: 'Ubuntu', sans-serif;
     background: #e28c05;
     padding: 7px;
@@ -39,15 +39,24 @@ li {
 
     /*width: 50px;
     height: 50px;*/
-  transform: skew(20deg);
-      
-
-
+  /*transform: skew(20deg);
+}*/
+#parallelogram {
+    width: 4s0px;
+    height: 40px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top:10px;
+    margin-left:20px;
+    transform: skew(20deg);
+    background: #e28c05;
+    
 }
 
-#mt:hover {
+#parallelogram:hover {
     background: #aa5e00;
     cursor: pointer;
+    border: 1px solid #fff;
 
 }
 
