@@ -1,10 +1,9 @@
 /*Style sheet-Portfolio site*/
 /****************************************************************
     Few Rules
-    - Primary color: is white
-    -secondary color:  #E6E6E6;
-    -orange color around logo and footer links: #FFC266 ()
-    -#e1e2e1 light- grey color 
+    - Primary color: #525252 light dark
+    -secondary color:  #414141 Medium dark
+    -Third color: #313131 Dark
     -#919292  Dark-Grey
     -#aa5e00 DARK ORANGE
   *******************************************************************/
@@ -17,275 +16,173 @@ html,
 body {
     margin: 0;
     padding: 0;
+    background: #525252;
     height: 100vh;
-    font-family: 'Lato', sans-serif;
-    background: #fff;
-
-
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
 }
-.container{
-    max-width: 100%;
-}
-.column {
-    flex-basis: 100%;
-}
-/*Media Query*/
-@media screen and (min-width: 320px){
-  
-    .container {
-        flex-direction: column;
-    }
-    .mui-form{
-        width: 100%;
-        margin-left: 20px;
-        color: red;
-        
-
-    }
-     
-   
-
+.container-fluid {
+    padding: 3% 5%;
 }
 
-@media screen and (min-width: 575px){
-    .container {
-        flex-direction: row;
-    }
-    .mui-form{
-        max-width: 100%;
-        
-
-    }
-   
-
-}
-@media screen and (max-width: 505px){
-    .mt_link {
-        margin: 0 auto;
-    }
-
-}
-@media screen and (min-width: 800px){
-        .section {
-            display: flex;
-            flex-direction: column;
-            flex-wrap: nowrap;
-
-        }
-        .column{
-            flex: 1;
-        }
-        ._100 {
-            flex: 1;
-        }
-        ._25 {
-            flex:2.5;
-        }
-        ._5 {
-            flex: 5;
-        }
-        .mui-form{
-            max-width: 100%;
-            
-
-        }
-       
+li {
+    list-style: none;
 }
 
-@media screen and(max-width: 963px){
-   
-    #mt {
-        margin: 0 auto;
-     }
-     #junior {
-         margin-top: 10px;
-         margin: 0 auto;
-     }
-     #navbar ul li a{
-         font-size: 10px;
-         background: red;
-     }
-
-}
-* {
-    box-sizing: border-box;
-  }
-  section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding-top:50px;
-  }
-
-#navbar {
-    background-color: #000;
-    /*height: 70px;*/
-    position: fixed;
-    z-index: 2;
-    left: 0px;
-    /*width: 100%;*/
-}
-
-#mt{
-    
+#mt {
+    font-family: 'Ubuntu', sans-serif;
     background: #e28c05;
     padding: 7px;
     font-size: 3vh;
+    font-weight: 400;
     color: #fff;
-    margin-right: 225px;
+
+    /*width: 50px;
+    height: 50px;*/
+  transform: skew(20deg);
+      
+
 
 }
- #mt:hover {
+
+#mt:hover {
     background: #aa5e00;
     cursor: pointer;
 
 }
 
-.mt_link {
-    text-decoration: none!important;
-    cursor: pointer;
-    margin-left: 100px;
-    height: 49px;
-    width: 230px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 25px;
-    padding-bottom: 10px;
-}
-.mt_link:hover {
-    background-color:#000!important;
-}
-#junior:hover {
-    background-color:#000!important;
-}
-
-#junior{
-    color: #fff;
-    display: block;
-    margin-top: -17px;
+.navbar-nav .nav-item a {
+    color: #fff !important;
 
 }
 
-
-#navbar ul {
-    float: right;
+.navbar-nav .nav-item a:hover {
+    color: #000 !important;
+    background-color: #e28c05 !important;
 }
 
-#navbar ul li {
-    list-style: none;
-    display: inline;
-    margin-right: 15px;
-
-}
-#navbar ul li a:hover {
-    color:#000 !important;
-    background-color:#e28c05!important;
-}
-#navbar ul li a:active{
-    border-bottom:2px solid #fff;
-    padding-bottom: 15px;
-    
-} 
+.navbar-nav .nav-item a:active {
+    border-bottom: 2px solid #fff;
 
 
-#navbar ul li a {
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
+}
 
+p {
+    font-family: 'Montserrat-Thin', sans-serif;
+    color: #efefef;
+    font-size: 1rem;
+    line-height: 1.5;
 }
-#logo_text {
-    color: #fff;
-    margin-left: 50px;
-    padding-top: 10px;
-    display: inline;
-    border: 3px solid #e28c05;
-    
+
+#navbar {
+
+    z-index: 2;
 }
-#welcome-section,
-#skills,
-#projects,
-#education,
-#contact {
+
+section {
     height: 100vh;
 
 }
 
-#welcome-section {
-
-width: 100%;
-display: inline-block;
-vertical-align: middle;
-    background-size: cover;
-    /*background-position: 50% 50%;*/
-    background-repeat: no-repeat;
+.bg_image {
     background-image: url('../images/bg2_about.jpg');
-    
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
 
 }
-.blur_image {
-    filter: blur(1.5px);
-    -webkit-filter: blur(1.5px);
+
+.about_me {
+    color: #fff;
+    font-weight: bold;
+    font-size: 8vh;
+    border: 3px solid #e28c05;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 60%;
+    padding: 20px;
+    text-align: center;
 }
 
-.about_me{
-  color: white;
-  font-weight: bold;
-  font-size: 8vh;
-  border: 3px solid #e28c05;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 1;   
-  width: 60%;
-  padding: 20px;
-  text-align: center;
-}
-.about_me header ,p {
-    filter: blur(1.5px);
-    -webkit-filter: blur(1.5px);
-}
+
 .about_me p {
+    font-family: 'Montserrat', sans-serif;
     font-size: 4vh;
+}
+
+.about_me h1 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    size: 3rem;
+    line-height: 1.5;
+
 }
 
 #skills {
 
-    background: #919292;
+    background: #313131;
 }
 
 #projects {
-    background-color: #e1e2e1
-
+    background-color: #525252
 }
 
 #education {
-    background-color: #fff;
+    background-color: #414141;
 }
 
 #contact {
-    background-color: #e1e2e1;
+    background-color: #525252;
 
 }
-#footer{
-    height: 50vh;
-    background-color: #000;
+
+#footer {
+    height: 100%;
+    background-color: #313131;
+    color: #ffbc45;
+    padding: 7% 5%;
+
 }
+
+.profile img {
+    padding-right: 15px;
+}
+
+.social li {
+    background: #fff;
+    border-bottom: 1px solid #000;
+    padding: 20px 10px;
+    display: block;
+    font-family: 'Montserrat-Bold', sans-serif;
+
+
+}
+
 
 /*CONTACT Section*/
 .mui-form {
-    width: 60% ;
+    width: 60%;
     margin-top: 40px;
     margin: 0 auto;
-
     vertical-align: middle;
-
-}
-.mui-form label {
-    color:#000;
 }
 
-.mui-btn{
+.mui-form label,
+legend {
+    color: #fff;
+}
+
+.mui-form legend {
+    color: #fff;
+}
+
+.mui-btn {
     background-color: #ffbc45;
+}
+.btn-warning {
+    background: #e28c05;
 }
