@@ -41,6 +41,9 @@ li {
     position: absolute;
 
 }
+#mesfint:hover {
+    color:#000;
+}
 
 #parallelogram {
     width: 90px;
@@ -51,25 +54,24 @@ li {
     background: #e28c05;
     margin-bottom: 5px;
 }
+#navbar > #parallelogram:hover {
+    color: #000;
+    background-color: #e28c05;
+
+    
+}
 
 #junior {
     color: #fff;
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.7vh;
-    padding-top: 57px;
-    margin-left: 29px;
+    margin-top: 29px;
+    margin-left: 32px;
     line-height: 2.0;
     position: absolute;
 
 }
 
-
-#parallelogram:hover {
-    background: #aa5e00;
-    cursor: pointer;
-    border: 1px solid #fff;
-
-}
 .nav-item {
     padding: 0 10px;
 }
@@ -104,7 +106,11 @@ padding-bottom: 4.5rem;
 }
 
 section {
-    height: 100vh;
+    display:block;
+    overflow:auto;
+    height: 100%;
+    padding-bottom: 2%;
+    padding-top: 2%;
 
 }
 
@@ -139,24 +145,37 @@ section {
     font-size: 4vh;
 }
 
-.about_me h1 {
+ h1 {
     font-family: 'Montserrat-Bold', sans-serif;
     size: 3rem;
     line-height: 1.5;
+    color:#fff;
 
 }
 
 #skills {
 
-    background: #313131;
+    /* background: #313131; */
+    background: #212529;
+    
 }
 
 #projects {
-    background-color: #525252
+    background-color: #525252;
+    
+    
+    
+}
+ .project-grids {
+    padding: 5% 12%;
+}
+.project-lang {
+    color:#000;
 }
 
 #education {
     background-color: #414141;
+    
 }
 
 #contact {
