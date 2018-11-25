@@ -101,16 +101,25 @@ p {
 }
 
 #navbar {
-padding-bottom: 4.5rem;
+/*padding-bottom: 4.5rem;*/
+overflow: hidden;
+background-color: #333;
+position: fixed;
+top: 0;
+width: 100%;
  z-index: 2;
+ 
 }
 
 section {
-    display:block;
-    overflow:auto;
-    height: 100%;
+    /*display:block;
+    overflow:hidden;*/
+    /*height: 100%;
     padding-bottom: 2%;
-    padding-top: 2%;
+    padding-top: 2%;*/
+    padding: 16px;
+    margin-top: 30px;
+    height: 1200px;/* Used in this example to enable scrolling */
 
 }
 
@@ -152,7 +161,13 @@ section {
     color:#fff;
 
 }
+h3 {
+    font-family: 'Montserrat-Thin', sans-serif;
+    size: 1rem;
+    line-height: .8;
+    color:#ffbc45;
 
+}
 #skills {
 
     /* background: #313131; */
@@ -167,19 +182,29 @@ section {
     
 }
  .project-grids {
-    padding: 5% 12%;
+    /*padding: 5% 10%;*/
+    
 }
+.grid {
+    padding: 1% 10% 20% 10%;
+  
+}
+
+
 .project-lang {
     color:#000;
+    
 }
 
 #education {
     background-color: #414141;
     
+    
 }
 
 #contact {
     background-color: #525252;
+   
 
 }
 
@@ -212,7 +237,7 @@ section {
     vertical-align: middle;
 }
 
-.mui-form label,
+.mui-form label
  {
     color: #fff;
 }
@@ -220,7 +245,13 @@ section {
 .mui-form legend {
     color: #fff;
 }
+.mui-textfield>input, .mui-textfield {
+    border-bottom: 1px solid white;
+}
+.mui-textfield>textarea {
+    border-bottom: 1px solid white;
 
+}
 .mui-btn {
     background-color: #ffbc45;
 }
