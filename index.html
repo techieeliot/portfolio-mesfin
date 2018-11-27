@@ -34,7 +34,7 @@
         <nav id="navbar" class="navbar navbar-expand-lg navbar-dark  fixed-top ">
             <a id="parallelogram" class="navbar-brand" href="#projects"> 
             </a><span id="mesfint">MesfinT</span>
-            <span id="junior">Junior Front End Developer</span>
+            <!-- <span id="junior">Junior Front End Developer</span> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -68,40 +68,42 @@
                 </ul>
             </div>
         </nav>
-    </div>
-    <!--End of Container fluid-->
+    
 
     <!--Sections-->
     <section id="welcome-section">
         <div class="bg_image"></div>
 
         <div class="about_me">
-            <h1> Mesfin Tegegne Portfolio</h1>
-            <p>Junior Front End Developer</p>
+            <h1 id="big-heading"> Mesfin Tegegne Portfolio</h1>
+            <h4>Junior Front End Developer</h4>
         </div>
 
     </section>
-    
-    <section id="skills">
-            <div class="container-fluid" style="padding-top:5%;padding-left:3%">
+</div>
+<!--End of Container fluid-->
+
+
+    <section id="skills" class="white-section">
+            <div class="container-fluid" >
             
 
-        <h1>Skills</h1>
+        <h2 id="section-heading">Skills</h2>
         <p>
                 Layout Design,Web development,WordPress and Joomla
                 <br>
                 HTML5, CSS3 , JavaScript and jQuery
 
         </p>
-        <h1>Other Skills</h1>
+        <h2 id="section-heading">Other Skills</h2>
         GitHub, Angular(Learning),Sass(Learning)
 
    </div>  <!--  End of skills container-fluid -->
     </section>
 
-    <section id="projects"   style="padding-top:5%;padding-left:3%;">
+    <section id="projects"  class="colored-section">
 
-        <h1>Projects</h1>
+        <h2 id="section-heading">Projects</h2>
 
         
         <div class="row  projects">
@@ -196,10 +198,10 @@
 
         </div>
     </section>
-    <section id="education" style="padding-top:5%;padding-left:3%;">
+    <section id="education" class="white-section">
             <div class="container-fluid" >
 
-        <h1>Education</h1>
+        <h2 id="section-heading">Education</h2>
         <div col-lg-6 col-md-12>
             <h3>Laurea University of Applied Sciences,Helsinki,FI-08/2016 - 2019</h3>
                 <p>Bachelor's degree in Busines Information Technology(BIT).</p>
@@ -213,12 +215,12 @@
 
             </div>  <!--  End of  eductaion Container fluid -->
     </section>
-    <section id="contact" style="padding-top:5%;padding-left:3%;">
+    <section id="contact" class="colored-section">
             <div class="container-fluid"></div>
 
 
         <form class="mui-form" action="https://formspree.io/mesfin_meng@yahoo.com" method="POST">
-            <h1 style="text-align:center">Contact Me</h1>
+            <h2 id="section-heading">Contact Me</h2>
             <div class="mui-textfield mui-textfield--float-label">
                 <input type="email" name="email" required>
                 <label>Email</label>
@@ -236,7 +238,9 @@
 
     </div>  <!--  End of  contact Container fluid -->
     </section>
-    <section id="footer"  style="padding-top:5%;padding-left:3%">
+    <section id="footer" class="black-section">
+   
+
         <div class="row">
 
             <div class=" profile col-lg-4 col-md-6 ">
@@ -286,8 +290,9 @@
             </div>
 
         </div>
-        <p style="text-align:center;font-size: .8rem; padding-top: 20%;">Copyright &copy; 2018 <strong>Mesfin Tegegne.</strong></p>
+        <p id = "copyRight">Copyright &copy; 2018 <strong>Mesfin Tegegne.</strong></p>
     </section>
+
 
 
      <!-- <script src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
