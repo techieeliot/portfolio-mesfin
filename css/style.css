@@ -30,7 +30,7 @@ body {
 }
 
 .container-fluid {
-    padding: 5% 0%;
+    padding: 2% 0%;
     overflow:hidden;
 }
 
@@ -125,8 +125,11 @@ section {
     height: 1200px;/* Used in this example to enable scrolling */
 
 }
+#welcome-section,#skills,#about,#contact,#footer {
+    max-height: 650px;
+}
 /*All sections with similar padding*/
-#skills,#projects,#education,#contact,#footer {
+#skills,#projects,#about,#contact,#footer {
     padding:3% 15%;
     
 
@@ -197,26 +200,38 @@ h3 {
 }
 .colored-section {
     background: #ffbc45;
+    color: #fff;
 }
 #black-section {
     background: #000;
     color:#fff;
 }
 
-#skills,#education  {
+#skills   {
     padding-top:7%;
+    color: #e28c05;
    
 }
+#about {
+    padding-top:7%;
+    color: #fff;
+}
+#contact {
+    color: #e28c05;
+}
+
 #projects{
-    padding-top: 10%; 
+    padding: 80px; 
+    color: #fff;
     
-  
+ 
 }
 .project {
     /*padding: 2%;*/
-    float: left;
+    /*float: left;
     width: 33.33%;
-    padding: 3%;
+    padding: 3%;*/
+    padding: 3% 4%;
 }
 
 
@@ -269,24 +284,24 @@ h3 {
 /*CONTACT Section*/
 .mui-form {
     width: 60%;
-    margin-top: 40px;
+    margin-top: 20px;
     margin: 0 auto;
     vertical-align: middle;
 }
 
 .mui-form label
  {
-    color: #fff;
+    color: #000;
 }
 
 .mui-form legend {
-    color: #fff;
+    color: #000;
 }
 .mui-textfield>input, .mui-textfield {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #000;
 }
 .mui-textfield>textarea {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #000;
 
 }
 .mui-btn {

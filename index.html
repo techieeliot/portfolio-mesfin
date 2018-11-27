@@ -44,9 +44,13 @@
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#welcome-section">ABOUT</a>
+                        <a class="nav-link" href="#welcome-section">PROFILE</a>
 
                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+
+                    </li> 
                     <li class="nav-item">
                         <a class="nav-link" href="#skills">SKILLS</a>
 
@@ -56,10 +60,7 @@
                             <a class="nav-link" href="#projects">PROJECTS</a>
     
                         </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#education">EDUCATION</a>
-
-                    </li>
+                    
                    
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">CONTACT</a>
@@ -69,7 +70,8 @@
             </div>
         </nav>
     
-
+    </div>
+    <!--End of Container fluid-->
     <!--Sections-->
     <section id="welcome-section">
         <div class="bg_image"></div>
@@ -80,8 +82,28 @@
         </div>
 
     </section>
-</div>
-<!--End of Container fluid-->
+    <!-- About me section -->
+    <section id="about" class="colored-section">
+        <div class="container-fluid" >
+
+    <h2 id="section-heading">About Me</h2>
+    <div col-lg-6 col-md-12>
+        <h3>
+                Laurea University of Applied Sciences,Helsinki,FI-08/2016 - 2019
+        </h3>
+        
+            <p>Bachelor's degree in Busines Information Technology(BIT).</p>
+        <h3>Metropolia University of Applied Sciences,Helsinki,FI-07/2007 - 05/2011.</h3>
+        <p>Bachelor's degree in Media Engineering.</p>
+    </div>
+    <div>
+
+    </div>
+    
+
+        </div>  <!--  End of  eductaion Container fluid -->
+</section>
+
 
 
     <section id="skills" class="white-section">
@@ -96,7 +118,7 @@
 
         </p>
         <h2 id="section-heading">Other Skills</h2>
-        GitHub, Angular(Learning),Sass(Learning)
+       <p> GitHub, Angular(Learning),Sass(Learning)</p>
 
    </div>  <!--  End of skills container-fluid -->
     </section>
@@ -107,8 +129,9 @@
 
         
         <div class="row  projects">
+                <!-- gutter-margin-xs-sm gutter-margin-sm-md -->
 
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 gutter-margin-xs-sm gutter-margin-sm-md   project">
+                <div class="  col-md-6 col-lg-4    project">
                         <div class="card text-center " style ="width: 18rem">
                             <div class="card-body ">
                                 <h5 class="card-title project-tile">Project 1</h5>
@@ -122,7 +145,7 @@
                         </div>
                         
                     </div>
-                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 gutter-margin-xs-sm gutter-margin-sm-md  project">
+                    <div class=" col-md-6 col-lg-4  project">
                             <div class="card text-center" style ="width: 18rem">
                                 <div class="card-body">
                                     <h5 class="card-title project-tile">Project 1</h5>
@@ -136,7 +159,7 @@
                             </div>
                             
                         </div>
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 gutter-margin-xs-sm gutter-margin-sm-md  project">
+                        <div class=" col-md-6 col-lg-4  project">
                                 <div class="card text-center" style ="width: 18rem">
                                     <div class="card-body">
                                         <h5 class="card-title project-tile">Project 1</h5>
@@ -153,7 +176,7 @@
          
          
            <!-- Three more Projects -->
-           <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 gutter-margin-xs-sm gutter-margin-sm-md  project">
+           <div class="  col-md-6 col-lg-4   project">
                 <div class="card text-center" style ="width: 18rem">
                     <div class="card-body">
                         <h5 class="card-title project-tile">Project 1</h5>
@@ -167,7 +190,7 @@
                 </div>
                 
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 gutter-margin-xs-sm gutter-margin-sm-md project">
+            <div class=" col-md-6 col-lg-4 project">
                     <div class="card text-center" style ="width: 18rem">
                         <div class="card-body">
                             <h5 class="card-title project-tile">Project 1</h5>
@@ -181,7 +204,7 @@
                     </div>
                     
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 gutter-margin-xs-sm gutter-margin-sm-md project">
+                <div class=" col-md-6 col-lg-4  project">
                         <div class="card text-center" style ="width: 18rem">
                             <div class="card-body">
                                 <h5 class="card-title project-tile">Project 1</h5>
@@ -198,29 +221,13 @@
 
         </div>
     </section>
-    <section id="education" class="white-section">
-            <div class="container-fluid" >
-
-        <h2 id="section-heading">Education</h2>
-        <div col-lg-6 col-md-12>
-            <h3>Laurea University of Applied Sciences,Helsinki,FI-08/2016 - 2019</h3>
-                <p>Bachelor's degree in Busines Information Technology(BIT).</p>
-            <h3>Metropolia University of Applied Sciences,Helsinki,FI-07/2007 - 05/2011.</h3>
-            <p>Bachelor's degree in Media Engineering.</p>
-        </div>
-        <div>
-
-        </div>
-        
-
-            </div>  <!--  End of  eductaion Container fluid -->
-    </section>
-    <section id="contact" class="colored-section">
+   
+    <section id="contact" class="white-section">
             <div class="container-fluid"></div>
-
+            <h2 id="section-heading">Contact Me</h2>
 
         <form class="mui-form" action="https://formspree.io/mesfin_meng@yahoo.com" method="POST">
-            <h2 id="section-heading">Contact Me</h2>
+            
             <div class="mui-textfield mui-textfield--float-label">
                 <input type="email" name="email" required>
                 <label>Email</label>
