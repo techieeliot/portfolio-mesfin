@@ -126,7 +126,7 @@ section {
 
 }
 #welcome-section,#skills,#about,#contact,#footer {
-    max-height: 650px;
+    max-height: 100vh;
 }
 /*All sections with similar padding*/
 #skills,#projects,#about,#contact,#footer {
