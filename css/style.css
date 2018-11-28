@@ -24,7 +24,7 @@ body {
     margin: 0;
     padding: 0;
     background: #525252;
-    height: 100vh;
+    height: auto;
     font-family: 'Montserrat', sans-serif;
     /*font-family: 'Ubuntu', sans-serif;*/
 }
