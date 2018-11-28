@@ -236,15 +236,19 @@ h3 {
 }
 #about {
     padding-top:7%;
-    color: #fff;
+    color: #e28c05;
 }
 #contact {
     color: #e28c05;
 }
+#contact .container {
+    padding-top: 4%;
+
+}
 
 #projects{
     padding: 80px; 
-    color: #fff;
+    color: #e28c05;
     height: auto;
     
  
@@ -335,6 +339,9 @@ h3 {
 .btn-warning {
     background: #e28c05;
 }
+.btn-right {
+    margin-right: 61px;
+}
 
 /*
 @media screen and (max-width:1150){
@@ -390,30 +397,18 @@ padding-right: 3%;
    .container-fluid {
     width:1170px;
    }
+   
     
-    #section-heading {
-        
-    }
-    #big-heading {
-       
-    }
-    h4 {
-       
-    }
+   
     a.nav-link {
         text-align: center;
-        background: #e28c05;
+        /* background: #e28c05; */
     }
     .hamburger {
        color:#e28c05;
     }
-    
 
-  
-    /*.title-image /*{
-      position: static;
-      transform: rotate(0);
-    }*/
   }
+  
   
 
