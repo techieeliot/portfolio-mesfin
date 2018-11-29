@@ -23,7 +23,13 @@ html,
 body {
     margin: 0;
     padding: 0;
+      /* font-size: 0.8em; */
+
     background: #525252;
+    color: #666;
+    /* overflow-y: hidden; */
+
+
     height: auto;
     font-family: 'Montserrat', sans-serif;
     /*font-family: 'Ubuntu', sans-serif;*/
@@ -34,8 +40,11 @@ body {
     overflow:hidden;
 } */
 .container-fluid {
-    max-width: 1280px;
+    /* max-width: 1280px; */
     padding: 30px 180px;
+}
+.container  {
+text-align: center;
 }
 
 li {
@@ -44,7 +53,7 @@ li {
 
 #mesfint {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2.0vw;
+    font-size: 1.5em;
     font-weight: bold;
     color: #fff;
     margin-left: 38px;
@@ -58,7 +67,7 @@ li {
 }
 
 #parallelogram {
-    width: 7.8vw;
+    width: 7.5%;
     height: 3.125vw;
     margin-top: 10px;
     margin-left: 40px;
@@ -90,7 +99,7 @@ li {
 
 .nav-link {
     color: #fff !important;
-    font-size: 1.25vw;
+    font-size: 1em;
     font-family: "Montserrat";
 
 }
@@ -109,7 +118,7 @@ p {
     font-family: 'Montserrat-Thin', sans-serif;
     /*color: #efefef;*/
     color: #8f8f8f;
-    font-size: 1.5vw;
+    font-size: 1em;
     line-height: 1.5;
 }
 
@@ -150,7 +159,8 @@ section {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
+    /*background-size: cover;*/
+    background-size:contain;
     /* background-repeat: no-repeat; */
     filter: blur(4px);
     -webkit-filter: blur(4px);
@@ -184,7 +194,7 @@ section {
 
 .about_me h4 {
     
-    font-size: 2.8vw;
+    font-size: 2em;
 }
 
  h1,h2,h3,h4,h5,h6,p {
@@ -192,23 +202,22 @@ section {
     
 }
 #big-heading {
-    font-size: 4.25vw;
+    font-size: 3.3em;
     font-family: 'Montserrat-Bold', sans-serif;
     line-height: 1.5;
-    font-weight: 500;
+    display: inline-block;
     
   
 }
 #section-heading {
     text-align: center;
-    font-size: 3.75vw;
+    font-size: 3.25em;
     font-family: 'Montserrat-Bold', sans-serif;
     line-height: 1.5;
-    font-weight: 400;
 }
 h3 {
     
-    size: 1vw;
+    font-size: 1.5em;
     line-height: 1;
     color:#000;
 
@@ -304,7 +313,7 @@ h3 {
 /*Copyright*/
 #copyRight {
     text-align:center;
-    font-size: 1vw; 
+    font-size: .8em; 
     padding-top: 10%;
 
 }
@@ -392,23 +401,29 @@ padding-right: 3%;
     }*/
   /*}*/
 
-  @media (max-width: 1200px) {
+  /* @media (max-width: 1200px) {
 
    .container-fluid {
-    width:1170px;
+    width:100%;
    }
-   
-    
-   
     a.nav-link {
         text-align: center;
         /* background: #e28c05; */
-    }
+    /* }
     .hamburger {
        color:#e28c05;
     }
+    .project {
+         padding: 3% 4%; 
+    }
 
   }
-  
-  
+  @media only screen and (max-width: 600px){
+      .project {
 
+
+
+}
+
+  } */
+   
