@@ -27,7 +27,7 @@ body {
 
     background: #525252;
     color: #666;
-    /* overflow-y: hidden; */
+    overflow-x: hidden; 
 
 
     height: auto;
