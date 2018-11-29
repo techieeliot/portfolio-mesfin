@@ -27,7 +27,7 @@ body {
 
     background: #525252;
     color: #666;
-    overflow-x: hidden; 
+    /* overflow-y: hidden; */
 
 
     height: auto;
@@ -40,10 +40,12 @@ body {
     overflow:hidden;
 } */
 .container-fluid {
-    /* max-width: 1280px; */
+     max-width: 1280px; 
     padding: 30px 180px;
 }
 .container  {
+    max-width: 1280px; 
+
 text-align: center;
 }
 
