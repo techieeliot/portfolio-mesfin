@@ -179,7 +179,7 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     /*background-size: cover;*/
-    background-size: contain;
+    /* background-size: contain; */
     /* background-repeat: no-repeat; */
     filter: blur(4px);
     -webkit-filter: blur(4px);
@@ -314,6 +314,7 @@ h3 {
 }
 
 
+
 #footer {
     max-height: 40px;
     /*background-color: #313131;
@@ -426,11 +427,8 @@ h3 {
     padding-left: 5px;
 
 }
+.project_image {
+    margin: 0 -27px;
+}
 
-/* .container{
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-
-} */
 }
