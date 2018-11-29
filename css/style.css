@@ -402,6 +402,31 @@ h3 {
         background: #000;
         text-align: center;
     }
-    
 
+#big-heading {
+    font-size: 2.7em;
+   }
+   h4 {
+    font-size: .5em;
+
+}
+#section-heading{
+    font-size: 2.2em;
+    
+}
+#about p {
+    width: 100%; 
+
+    padding-left: 0px;
+   
+  
+
+}
+
+.container{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
 }
