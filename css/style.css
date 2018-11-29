@@ -415,18 +415,22 @@ h3 {
     
 }
 #about p {
-    width: 100%; 
-
-    padding-left: 0px;
    
+    /* width: 350px; */
+    width: 100%;
   
 
 }
+#about {
+    padding-right: 5px;
+    padding-left: 5px;
 
-.container{
+}
+
+/* .container{
     width: 100%;
     padding-left: 0px;
     padding-right: 0px;
 
-}
+} */
 }
