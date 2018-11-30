@@ -311,27 +311,13 @@ h3 {
     
 }
 
-
-
 .project-lang {
     color: #000;
 
 }
 
-
-
-#footer {
-    max-height: 40px;
-    /*background-color: #313131;
-    color: #ffbc45;*/
-    /*padding: 7% 5%;*/
-    padding-bottom: 10px;
-
-
-}
-
 #footer ul {
-    padding-left: 140px;
+    /* padding-left: 140px; */
 
 }
 
@@ -339,20 +325,10 @@ h3 {
     padding-right: 15px;
 }
 
-.social li {
-    background: #fff;
-    border-bottom: 1px solid #000;
-    margin: 5% 7%;
-    display: inline;
-    font-family: 'Montserrat-Bold', sans-serif;
+ .social li {
+  color:#fff;
 
-    padding-right: 15px;
-    padding-top: 17px;
-    text-align: center;
-    padding-bottom: 21px;
-    padding-left: 10px;
-
-}
+} 
 
 /*Copyright*/
 #copyRight {
