@@ -239,7 +239,7 @@ p {
 
 #section-heading {
     text-align: center;
-    font-size: 3.25em;
+    font-size: 3.5em;
     font-family: 'Montserrat-Bold', sans-serif;
     line-height: 1.5;
 }
@@ -291,7 +291,7 @@ h3 {
 }
 
 #projects {
-    padding: 80px;
+    padding: 100px;
     color: #e28c05;
     height: auto;
 
@@ -303,7 +303,12 @@ h3 {
     /*float: left;
     width: 33.33%;
     padding: 3%;*/
-    padding: 3% 4%;
+    padding: 3% 6%;
+}
+.project-coloumn  {
+    padding: 3% 2%;
+    text-align: center;
+    
 }
 
 
@@ -392,9 +397,7 @@ h3 {
     background: #e28c05;
 }
 
-.btn-right {
-    margin-right: 61px;
-}
+
 
 
 /* Media Query */
@@ -430,5 +433,7 @@ h3 {
 .project_image {
     margin: 0 -27px;
 }
+
+
 
 }
