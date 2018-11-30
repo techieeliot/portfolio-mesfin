@@ -44,7 +44,7 @@ body {
     max-width: 1280px;
     /*Avoids horizontal scroll beyond the view port */
 
-    text-align: center;
+    /* text-align: center; */
 }
 
 li {
