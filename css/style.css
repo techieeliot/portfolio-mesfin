@@ -69,6 +69,13 @@ li {
      */
 
 }
+hr {
+    margin: 2   0px 0px;
+      border-color: #727878; opacity: 0.2;
+      /* 727878 */
+       filter:alpha(opacity=20); 
+    }
+
 
 #mesfint:hover {
     color: #000;
@@ -245,11 +252,21 @@ p {
 
 #section-heading {
     text-align: center;
-    font-size: 3.5em;
+    font-size: 4.5em;
     font-family: 'Montserrat-Bold', sans-serif;
     line-height: 1.5;
     padding-bottom: -20%;
-    
+
+}
+#sub-section-heading {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    padding-bottom: -20%;
+
+    padding-left: 0px;
+
 
 }
 
@@ -283,8 +300,63 @@ h3 {
 #skills {
     padding-top: 7%;
     color: #e28c05;
+    height: auto;
+
 
 }
+.skills-list {
+    font-family: 'Montserrat-Thin', sans-serif;
+    /*color: #efefef;*/
+    color: #8f8f8f;
+    font-size: 1em;
+    line-height: 1.5;
+    /* border: 1px red solid; */
+}
+.skills-list li {
+    margin-bottom: 16px;
+}
+
+
+
+.education-list {
+    color: #8f8f8f;
+}
+#bold-black{
+    color: #000;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: 'Montserrat-Black', sans-serif;
+
+}
+#colleges {
+    font-family: 'Ubuntu-Black', sans-serif;
+    color: #000;
+    font-size: 1em;
+    font-weight: 700;
+}
+.stars {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 10px;
+}
+.stars > i:hover:before,
+.stars > i:hover ~ i:before {
+    color: gold;
+    cursor: pointer;
+}
+    .stars > i:hover:before,
+    .stars > i:hover ~ i:before {
+        color: gold;
+        cursor: pointer;
+    }
+     }
+
+     .skills-stars ul > li .skill-score .glyphicon { 
+        color: #DFE0E0; 
+        font-size: 10px; 
+     }
+
+
 #about {
     padding: 100px;
     color: #e28c05;
@@ -357,8 +429,6 @@ text-align: center;
 #footer {
   
     /*padding: 7% 5%;*/
-    
-
 
 }
 
@@ -396,6 +466,17 @@ text-align: center;
 .social ul {
     color: #8f8f8f;
 }
+#social-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: .9em;
+
+}
+#social-link:hover{
+    color: #e28c05;
+
+}
+
 
 /*CONTACT Section*/
 .mui-form {
