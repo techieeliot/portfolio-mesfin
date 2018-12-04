@@ -313,7 +313,7 @@ h3 {
     /* border: 1px red solid; */
 }
 .skills-list li {
-    margin-bottom: 16px;
+margin-bottom: 16px;
 }
 
 
@@ -339,17 +339,7 @@ h3 {
     flex-direction: row-reverse;
     margin: 10px;
 }
-.stars > i:hover:before,
-.stars > i:hover ~ i:before {
-    color: gold;
-    cursor: pointer;
-}
-    .stars > i:hover:before,
-    .stars > i:hover ~ i:before {
-        color: gold;
-        cursor: pointer;
-    }
-     
+
 
      .skills-stars ul > li .skill-score .glyphicon { 
         color: #DFE0E0; 
