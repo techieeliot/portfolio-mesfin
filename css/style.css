@@ -545,7 +545,7 @@ padding-left: 125px;
 
 @media (min-width: 360px){
     .nav-top {
-        background: #000;
+        /* background: #000; */
         text-align: center;
     }
 
