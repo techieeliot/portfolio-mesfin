@@ -418,7 +418,7 @@ text-align: center;
 
 #footer {
   
-    /*padding: 7% 5%;*/
+    padding-top: 7% ;
 
 }
 
@@ -445,12 +445,15 @@ text-align: center;
   
 
 } 
-.social ul 
+
 /*Copyright*/
-#copyRight {
+ #copyRight {
     text-align: center;
     font-size: .8em;
-    padding-top: 10%;
+    
+    
+   
+
 
 }
 .social ul {
@@ -510,6 +513,7 @@ text-align: center;
 
 @media (max-width: 991px){
 
+/* About Section */
     .about-details{
         padding: 3% 33%;
    }
@@ -530,8 +534,31 @@ text-align: center;
 padding-left: 125px;    
 
 }
+/* Skills Section */
+#year-study {
+    font-size: .9em;
+    /* margin-bottom:60px; */
+    margin-right: 30px;
+    width: 148px;
+}
+
+/* footer section */
+.social {
+    margin-left: 190px;
+    padding-top: 10px;
+    /* border-bottom: 1px solid #727878; */
 
 }
+.footer-link {
+    margin-left: 60px;
+}
+#copyRight {
+     margin-left: -10px; 
+
+}
+
+}
+
 @media (min-width: 411px){
    #about #about-junior {
         padding-left: 120px; 
@@ -540,7 +567,6 @@ padding-left: 125px;
     }
 
 }
-
 
 
 @media (min-width: 360px){
