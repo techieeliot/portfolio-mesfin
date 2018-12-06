@@ -316,9 +316,18 @@ h3 {
 margin-bottom: 16px;
 }
 
-#year-study-a,#year-study-b {
-    /* width: 148px; */
+.study-year {
+    color: #8f8f8f;
+    padding-top: 15px;
 
+    
+
+}
+#helsinki {
+    color:#e28c05;  
+}
+#study-desc {
+    margin-bottom: 0px;
 }
 
 
@@ -329,6 +338,7 @@ margin-bottom: 16px;
 .bold-black{
     color: #000;
     font-size: 1em;
+    padding-top: 15px;
     font-weight: 500;
     font-family: 'Montserrat-Black', sans-serif;
 
@@ -337,6 +347,7 @@ margin-bottom: 16px;
     font-family: 'Ubuntu-Black', sans-serif;
     color: #000;
     font-size: 1em;
+    padding-top: 15px;
     font-weight: 700;
 }
      .skills-stars ul > li .skill-score .glyphicon { 
