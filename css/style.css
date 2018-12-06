@@ -317,22 +317,23 @@ margin-bottom: 16px;
 }
 
 #year-study-a,#year-study-b {
-    width: 148px;
+    /* width: 148px; */
 
 }
 
 
 .education-list {
-    color: #8f8f8f;
+    /* color: #8f8f8f; */
+
 }
-#bold-black{
+.bold-black{
     color: #000;
     font-size: 1em;
     font-weight: 500;
     font-family: 'Montserrat-Black', sans-serif;
 
 }
-#colleges {
+.colleges {
     font-family: 'Ubuntu-Black', sans-serif;
     color: #000;
     font-size: 1em;
@@ -504,7 +505,7 @@ text-align: center;
 }
 
 
-
+/* 
 @media (max-width: 1028px){
     #section-heading  {
         font-size: 3em;
@@ -517,3 +518,15 @@ text-align: center;
     }
 
 }
+
+@media (max-width: 767px){
+    #laurea-study,#metropolia-study ,#freeCodeCamp,#couresera{
+        display: none;
+
+    }
+    #bold-black.laurea-degree{
+        color: red;
+        
+    }
+
+} */
