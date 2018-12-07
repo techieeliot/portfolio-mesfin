@@ -581,7 +581,7 @@ text-align: center;
     #study-desc {
         display: none;
     }
-    i.helsinki {
+    .helsinki {
     display: none;
     color: red;
     }
