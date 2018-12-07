@@ -38,7 +38,7 @@ body {
 
 .container-fluid {
     max-width: 1280px;
-    padding: 30px 180px;
+    /* padding: 30px 180px; */
 }
 
 .container {
@@ -70,7 +70,7 @@ li {
 
 }
 hr {
-    margin: 2   0px 0px;
+    margin: 2 0px 0px;
       border-color: #727878; opacity: 0.2;
       /* 727878 */
        filter:alpha(opacity=20); 
@@ -116,6 +116,7 @@ hr {
 .nav-link {
     color: #fff !important;
     font-size: 1em;
+    max-width: 100%;
     font-family: "Montserrat";
 
 }
@@ -399,7 +400,7 @@ text-align: center;
     
 }
 .about-section {
-    padding: 3% 17%;
+    /* padding: 3% 17%; */
     /* max-width: 100%; */
     /* text-align: center; */
     
@@ -407,7 +408,7 @@ text-align: center;
 
 }
 .about-details {
-    padding: 3% 3%;
+    /* padding: 3% 3%; */
 }
 .details  {
 /* max-width: 100%; */
@@ -432,8 +433,10 @@ text-align: center;
 }
 
 .footer-link {
-    padding-left: 140px;
-    padding-top: 0px;
+    /* padding-left: 140px;
+    padding-top: 0px; */
+    padding-left: 0px;
+
 
 }
 
@@ -449,7 +452,7 @@ text-align: center;
   color: #8f8f8f;
   display: inline-block;
   line-height: 2.5em;
-  width: 115%;
+   max-width: 100%;
   font-size:.8em;
   
 
@@ -457,16 +460,14 @@ text-align: center;
 
 /*Copyright*/
  #copyRight {
-    text-align: center;
     font-size: .8em;
     
-    
-   
-
 
 }
 .social ul {
     color: #8f8f8f;
+    padding-left: 0px;
+
 }
 #social-link{
     text-decoration: none;
@@ -541,3 +542,46 @@ text-align: center;
     }
 
 } */
+@media (max-width:991px){
+    ul.footer-link li {
+        max-width: 100%;
+        float: left;
+        font-size: .8em;
+        /* margin-left: 5px;
+        padding-left: 0px;
+        padding-right: 0px; */
+        
+    }
+  
+
+}
+@media (max-width: 767px){
+    ul.footer-link li {
+        max-width: 100%;
+        float: left;
+        font-size: .8em;
+        /* padding-left: 0px;
+        padding-right: 0px; */
+        display: none;
+        
+    }
+    #copyRight {
+        padding-left: 0px;
+    }
+   
+}
+@media (max-width:576px){
+    ul.footer-link li {
+        font-size: 1.3vw;
+        /* padding-left: 0px;
+        padding-right: 0px; */
+        max-width: 100%;
+        display:none;
+    }
+    #copyRight {
+        float: left;
+    }
+ 
+    
+
+}
