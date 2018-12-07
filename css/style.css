@@ -397,7 +397,19 @@ text-align: center;
 .project-coloumn {
     padding: 3% 2%;
     text-align: center;
-    
+
+}
+.project-card {
+   
+    background-color: #fff;
+    border-radius: 1px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 8px #ccc;
+    text-align: center;
+}
+#project-grid .card:hover{
+    transition: all 0.3s ease;
+    box-shadow: 12px 15px 20px 0px rgba(108, 128, 145, 0.15);
 }
 .about-section {
     /* padding: 3% 17%; */
@@ -570,7 +582,7 @@ text-align: center;
     }
    
 }
-@media (max-width:576px){
+ @media (max-width:576px){
     ul.footer-link li {
         
         display:none;
@@ -583,9 +595,9 @@ text-align: center;
     }
     .helsinki {
     display: none;
-    color: red;
+    }
+    .about-section p {
+        
     }
  
-    
-
-}
+} 
