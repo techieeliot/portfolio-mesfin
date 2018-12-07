@@ -572,14 +572,18 @@ text-align: center;
 }
 @media (max-width:576px){
     ul.footer-link li {
-        font-size: 1.3vw;
-        /* padding-left: 0px;
-        padding-right: 0px; */
-        max-width: 100%;
+        
         display:none;
     }
     #copyRight {
         float: left;
+    }
+    #study-desc {
+        display: none;
+    }
+    i.helsinki {
+    display: none;
+    color: red;
     }
  
     
