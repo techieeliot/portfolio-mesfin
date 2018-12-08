@@ -69,12 +69,7 @@ li {
      */
 
 }
-hr {
-    margin: 2 0px 0px;
-      border-color: #727878; opacity: 0.2;
-      /* 727878 */
-       filter:alpha(opacity=20); 
-    }
+
 
 
 #mesfint:hover {
@@ -327,6 +322,9 @@ margin-bottom: 16px;
 #helsinki {
     color:#e28c05;  
 }
+.break-line {
+    display: none;
+}
 #study-desc {
     margin-bottom: 0px;
 }
@@ -378,12 +376,23 @@ text-align: center;
     padding-top: 4%;
 
 }
+#contact #section-heading {
+    padding-top: 25px;
+}
 
 #projects {
     padding: 100px;
     color: #e28c05;
     height: auto;
 
+
+}
+.horizontal-separator {
+    display: none;
+    margin: 2 0px 0px;
+      border-color: #727878; opacity: 0.2;
+      /* 727878 , cfcfcf*/
+       filter:alpha(opacity=20); 
 
 }
 
@@ -554,6 +563,13 @@ text-align: center;
     }
 
 } */
+@media (max-width: 1850px){
+     .horizontal-separator {
+        display: block;
+        border-color: #131212; opacity: 0.2;
+    } 
+
+}
 @media (max-width:991px){
     ul.footer-link li {
         max-width: 100%;
@@ -564,6 +580,11 @@ text-align: center;
         padding-right: 0px; */
         
     }
+    .horizontal-separator {
+        display: block;
+        border-color: #131212; opacity: 0.2;
+    }
+  
   
 
 }
@@ -577,9 +598,16 @@ text-align: center;
         display: none;
         
     }
+    .horizontal-separator {
+        display: block;
+        border-color: #131212; opacity: 0.2;
+    }
+
+   
     #copyRight {
         padding-left: 0px;
     }
+    
    
 }
  @media (max-width:576px){
@@ -597,6 +625,10 @@ text-align: center;
     display: none;
     }
     .about-section p {
+        
+    }
+    .break-line {
+        display: block;
         
     }
  
