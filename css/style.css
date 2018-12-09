@@ -655,7 +655,6 @@ text-align: center;
 }
 @media (max-width:360px){
     .skills {
-        background: green;
     }
     #skills,#about {
         padding-left: 20px;
@@ -663,8 +662,17 @@ text-align: center;
         
     }
     .skills-list, .skills-stars {
-        max-width: 50%;
+        max-width: 47%;
+        padding-right: 0px;
 
 }
-
+.about_me {
+    margin-top:15px;
+}
+#big-heading {
+    font-size: 2em;
+}
+.about_me h4 {
+display: none;
+}
 }
