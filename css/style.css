@@ -537,32 +537,6 @@ text-align: center;
     background: #e28c05;
 }
 
-
-/* 
-@media (max-width: 1028px){
-    #section-heading  {
-        font-size: 3em;
-    }
-
-}
-@media(max-width:991px){
-    .about-details {
-        padding: 3% 17%;
-    }
-
-}
-
-@media (max-width: 767px){
-    #laurea-study,#metropolia-study ,#freeCodeCamp,#couresera{
-        display: none;
-
-    }
-    #bold-black.laurea-degree{
-        color: red;
-        
-    }
-
-} */
 @media (max-width: 1850px){
      .horizontal-separator {
         display: block;
