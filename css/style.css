@@ -640,6 +640,9 @@ text-align: center;
         max-width: 50%;
 
 }
+.skills {
+    background: pink;
+}
 #skills,#about {
     padding-left: 40px;
     padding-right: 40px;
@@ -648,5 +651,11 @@ text-align: center;
 #break-line {
     display: block;
 }
+
+}
+@media (max-width:360px){
+    .skills {
+        background: green;
+    }
 
 }
