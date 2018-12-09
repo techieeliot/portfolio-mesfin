@@ -640,10 +640,13 @@ text-align: center;
         max-width: 50%;
 
 }
-#skills {
+#skills,#about {
     padding-left: 40px;
     padding-right: 40px;
     
+}
+#break-line {
+    display: block;
 }
 
 }
