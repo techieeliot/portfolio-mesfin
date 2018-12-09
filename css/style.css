@@ -631,5 +631,19 @@ text-align: center;
         display: block;
         
     }
+  
  
 } 
+@media (max-width: 575px){
+    
+    .skills-list, .skills-stars {
+        max-width: 50%;
+
+}
+#skills {
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+}
