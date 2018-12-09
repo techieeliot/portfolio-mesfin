@@ -657,5 +657,14 @@ text-align: center;
     .skills {
         background: green;
     }
+    #skills,#about {
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .skills-list, .skills-stars {
+        max-width: 50%;
+
+}
 
 }
