@@ -1,3 +1,4 @@
+//Simple Js file to make use of the scroll feature to the portfolio page
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
