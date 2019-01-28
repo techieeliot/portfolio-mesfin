@@ -202,9 +202,10 @@ section {
     font-size: 2em;
 }
 
-#inline-project a {
+#inline-project,#certeficate  a {
     color: #e28c05;
     text-decoration: none;
+    
 
 }
 
