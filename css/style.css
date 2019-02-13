@@ -156,9 +156,13 @@ section {
 }
 
 .bg_image {
-    background: linear-gradient( to right bottom #e28c05,#ffbc45), /*no-repeat center right fixed */ url('../images/bg2_about.jpg');
-    height: 100%;
-    -webkit-background-size: 100%;
+    
+    height: 100vh;/*view port height*/
+    background-image: linear-gradient(to right bottom, rgba(226, 141, 5, 0.808),rgba(255, 187, 69, 0.39)), url(../images/bg2_about.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;/*this for logo-box*/
+    /*-webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
@@ -167,11 +171,11 @@ section {
     -moz-background-size: cover;
     -o-background-size: cover;
     filter: blur(4px);
-    -webkit-filter: blur(4px);
+    -webkit-filter: blur(4px);*/
 
 }
 
-.bg_image .layer {
+/*.bg_image .layer {
     background-color: #e28c05;
     position: absolute;
     top: 0px;
@@ -180,7 +184,7 @@ section {
     right: 0px;
     opacity: 0.5;
     filter: alpha(opacity=50);
-}
+}*/
 
 .about_me {
     color: #fff;
@@ -219,6 +223,7 @@ p {
     font-family: 'Montserrat-Bold', sans-serif;
     color: #fff;
     text-transform: uppercase;
+ 
 
 
 }
@@ -227,6 +232,7 @@ p {
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 19px;
+    
 }
 .heading-primary-sub {
     display: block;/*100%width*/
