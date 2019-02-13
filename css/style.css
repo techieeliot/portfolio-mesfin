@@ -161,30 +161,10 @@ section {
     background-image: linear-gradient(to right bottom, rgba(226, 141, 5, 0.808),rgba(255, 187, 69, 0.39)), url(../images/bg2_about.jpg);
     background-size: cover;
     background-position: top;
-    position: relative;/*this for logo-box*/
-    /*-webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    filter: blur(4px);
-    -webkit-filter: blur(4px);*/
+    position: relative;
+   
 
 }
-
-/*.bg_image .layer {
-    background-color: #e28c05;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
-}*/
 
 .about_me {
     color: #fff;
