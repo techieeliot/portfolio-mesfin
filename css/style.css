@@ -156,7 +156,7 @@ section {
 }
 
 .bg_image {
-    background: no-repeat center right fixed url('../images/bg2_about.jpg');
+    background: linear-gradient( to right bottom #e28c05,#ffbc45), /*no-repeat center right fixed */ url('../images/bg2_about.jpg');
     height: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
