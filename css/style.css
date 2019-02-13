@@ -185,7 +185,7 @@ section {
 .about_me {
     color: #fff;
     /*font-size: 8vh;*/
-    border: 3px solid #e28c05;
+   /* border: 3px solid #e28c05;*/
     position: absolute;
     top: 50%;
     left: 50%;
