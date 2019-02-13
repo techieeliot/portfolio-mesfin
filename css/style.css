@@ -190,16 +190,10 @@ section {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
+   /* z-index: 1;
     width: 60%;
     padding: 20px;
-    text-align: center;
-}
-
-
-.about_me h4 {
-
-    font-size: 2em;
+    text-align: center;*/
 }
 
 #inline-project,#certeficate  a {
@@ -221,13 +215,25 @@ p {
 }
 
 #big-heading {
-    font-size: 3.3em;
+  
     font-family: 'Montserrat-Bold', sans-serif;
-    line-height: 1.5;
-    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
 
 
 }
+.heading-primary-main {
+    display: block;/*to make upper and take whole width/line breaks both ends*/
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 19px;
+}
+.heading-primary-sub {
+    display: block;/*100%width*/
+    font-size: 15px;
+    font-weight: 600;
+     letter-spacing: 14.4px;
+    }
 
 #section-heading {
     text-align: center;
