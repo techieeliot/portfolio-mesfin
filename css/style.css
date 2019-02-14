@@ -203,6 +203,7 @@ p {
     font-family: 'Montserrat-Bold', sans-serif;
     color: #fff;
     text-transform: uppercase;
+    backface-visibility: hidden;/*To avoid animation shake at the beginig*/
  
 
 
