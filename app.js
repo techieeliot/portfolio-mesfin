@@ -1,6 +1,6 @@
 //Simple Js file to make use of the scroll feature to the portfolio page
 // When the user scrolls down 20px from the top of the document, show the button
-
+//getThisYear is a function to update callender year dybamically every year
 window.onload = function () {
   window.onscroll = function() {scrollFunction()};
 
