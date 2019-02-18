@@ -222,7 +222,7 @@ p {
     display: block;/*100%width*/
     font-size: 15px;
     font-weight: 600;
-     letter-spacing: 23.4px;
+     letter-spacing: 23.3px;
      animation-name: moveInRight;
      animation-duration: 1s;
       animation-timing-function: ease-out;
