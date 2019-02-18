@@ -662,7 +662,8 @@ h3 {
 
     .skills-list,
     .skills-stars {
-        max-width: 50%;
+        max-width: 45%;
+        padding:  2%; 
 
     }
 
