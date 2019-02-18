@@ -690,15 +690,15 @@ h3 {
 
     #skills,
     #about {
-        padding-left: 0px;
+        padding-left: 2px;
         padding-right: 0px;
 
     }
 
     .skills-list,
     .skills-stars {
-        max-width: 47%;
-        padding-right: 0px;
+        max-width: 50%;
+        padding-right: 5px;
 
     }
 
