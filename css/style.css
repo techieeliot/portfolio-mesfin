@@ -53,12 +53,18 @@ li {
 }
 .logo-box{
     position: absolute;
-    top:20px;
+    top:8px;
     left: 40px;
-    background: #333;
+    
 }
 .logo {
-    height: 35px;/*no need to put width*/
+    height: 30px;/*no need to put width*/
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #e28c05;
+    
+    
 
 }
 .logo:hover {
