@@ -51,7 +51,21 @@ body {
 li {
     list-style: none;
 }
+.logo-box{
+    position: absolute;
+    top:20px;
+    left: 40px;
+    background: #333;
+}
+.logo {
+    height: 35px;/*no need to put width*/
 
+}
+.logo:hover {
+    animation: moveInRight 1s ease-out;/*This also posible*/
+}
+
+/*
 #mesfint {
     font-family: 'Ubuntu-Black', sans-serif;
     font-size: 1.2em;
@@ -61,10 +75,10 @@ li {
     margin-top: 0px;
     font-style: italic;
 
-}
+}*/
 
 
-
+/*
 #mesfint:hover {
     color: #000;
 }
@@ -84,7 +98,7 @@ li {
     background-color: #e28c05;
 
 
-}
+}*/
 
 .nav-item {
     padding: 0 10px;
