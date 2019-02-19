@@ -62,13 +62,14 @@ li {
     font-family: 'Limelight', cursive;
     font-weight: 800;
     font-size: 45px;
-    color: #e28d05;
+    /*color: #e28d05;*/
+    color: #f39605;
     
 
   
 }
 #logo-m:visited {
-    color: #e28d05;
+    color: #f39605;
 }
 .logo:hover {
     animation: moveInRight 2s ease-out;/*This also posible*/
