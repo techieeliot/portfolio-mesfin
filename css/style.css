@@ -55,13 +55,13 @@ li {
     position: absolute;
     top:0px;
     left: 40px;
-    
+   
 }
 .logo {
     height: 30px;/*no need to put width*/
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Limelight', cursive;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 45px;
     color: #e28d05;
     
 
@@ -675,8 +675,6 @@ h3 {
         display: none;
     }
 
-    .about-section p {}
-
     .break-line {
         display: block;
 
@@ -709,6 +707,9 @@ h3 {
     #projects {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .logo-box {
+        display: none;
     }
 
 }
@@ -748,6 +749,9 @@ h3 {
 
     #contact {
         height: auto;
+    }
+    .logo-box {
+        display: none;
     }
 
 }
