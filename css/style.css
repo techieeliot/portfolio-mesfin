@@ -53,7 +53,7 @@ li {
 }
 .logo-box{
     position: absolute;
-    top:8px;
+    top:0px;
     left: 40px;
     
 }
@@ -63,6 +63,7 @@ li {
     font-weight: 800;
     font-size: 40px;
     color: #e28d05;
+    
 
   
 }
@@ -70,7 +71,7 @@ li {
     color: #e28d05;
 }
 .logo:hover {
-    animation: moveInRight 1s ease-out;/*This also posible*/
+    animation: moveInRight 2s ease-out;/*This also posible*/
 }
 
 /*
