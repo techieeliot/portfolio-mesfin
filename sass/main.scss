@@ -1,0 +1,730 @@
+/*Style sheet-Portfolio site*/
+/****************************************************************
+    Few Rules
+    Font
+    -H1-big Heading
+    -h2-section Heading
+    
+    ********
+    **Sections***
+    -Welcome-section----background image
+    -Skills-section----- background White
+    -projects-section----- colored background #ffbc45; 
+    -education-section----- background White
+    -contact-section-----  colored background #ffbc45; 
+
+  *******************************************************************/
+
+  html {
+    scroll-behavior: smooth;
+
+
+}
+$color-yellow-dark: #e28c05;
+$color-yellow:#f39605;
+$color-yellow-light: #ffbb45;
+$color-black: #fff;
+$color-text-grey: #8f8f8f;
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    /* font-size: 0.8em; */
+
+    background: #525252;
+    color: #666;
+    /* overflow-y: hidden; */
+
+
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Ubuntu', sans-serif;*/
+}
+
+.container-fluid {
+    max-width: 1280px;
+    /* padding: 30px 180px; */
+}
+
+.container {
+    max-width: 1280px;
+    /*Avoids horizontal scroll beyond the view port */
+
+    /* text-align: center; */
+}
+
+li {
+    list-style: none;
+}
+.logo-box{
+    position: absolute;
+    top:0px;
+    left: 40px;
+   
+}
+.logo {
+    height: 30px;/*no need to put width*/
+    font-family: 'Limelight', cursive;
+    font-weight: 800;
+    font-size: 45px;
+    /*color: #e28d05;*/
+    color: $color-yellow;
+    
+
+  
+}
+#logo-m:visited {
+    color: $color-yellow;
+}
+.logo:hover {
+    animation: moveInRight 2s ease-out;/*This also posible*/
+}
+
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    color: $color-black !important;
+    font-size: 1em;
+    max-width: 100%;
+    font-family: "Montserrat";
+
+}
+
+.nav-link:hover {
+    color: #000 !important;
+    background-color: $color-yellow-dark !important;
+}
+
+.nav-link:active {
+    border-bottom: 2px solid $color-black;
+
+}
+
+p {
+    font-family: 'Montserrat-Thin', sans-serif;
+    /*color: #efefef;*/
+    color: $color-text-grey;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+#navbar {
+    /*padding-bottom: 4.5rem;*/
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+}
+
+section {
+
+    height: 1200px;
+    /* Used in this example to enable scrolling */
+
+}
+
+#welcome-section,
+#education,
+#skills,
+#about,
+#contact,
+#footer {
+    height: 100vh;
+}
+
+/*All sections with similar padding*/
+#education,
+#skills,
+#projects,
+#about,
+#contact,
+#footer {
+    padding: 3% 15%;
+
+
+}
+
+.bg_image {
+    
+    height: 100vh;/*view port height*/
+    background-image: linear-gradient(to right bottom, rgba($color-yellow-dark, 0.808),rgba($color-yellow-light, 0.39)), url(../images/bg2_about.jpg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+   
+
+}
+
+.about_me {
+    color: $color-black;
+    /*font-size: 8vh;*/
+   /* border: 3px solid #e28c05;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   /* z-index: 1;
+    width: 60%;
+    padding: 20px;
+    text-align: center;*/
+}
+
+#inline-project,#certeficate  a {
+    color: $color-yellow-dark;
+    text-decoration: none;
+    
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#big-heading {
+  
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: $color-black;
+    text-transform: uppercase;
+    backface-visibility: hidden;/*To avoid animation shake at the beginig*/
+ 
+
+
+}
+.heading-primary-main {
+    display: block;/*to make upper and take whole width/line breaks both ends*/
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 19px;
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    
+}
+.heading-primary-sub {
+    display: block;/*100%width*/
+    font-size: 15px;
+    font-weight: 600;
+     letter-spacing: 23.3px;
+     animation-name: moveInRight;
+     animation-duration: 1s;
+      animation-timing-function: ease-out;
+    }
+    @keyframes moveInLeft {
+        0%{
+            opacity: 0;
+            transform: translateX(-100px)
+        }
+        80%{
+            transform: translateX(10px);
+    }
+    
+        100% {
+            opacity: 1;
+            transform: translate(0);
+        }
+    }
+    @keyframes moveInRight {
+        0%{
+            opacity: 0;
+            transform: translateX(100px)
+        }
+        80%{
+            transform: translateX(-10px);
+    }
+    
+        100% {
+            opacity: 1;
+            transform: translate(0);
+        }
+    }
+
+#section-heading {
+    text-align: center;
+    font-size: 3.5em;
+    font-family: 'Montserrat-Bold', sans-serif;
+    line-height: 1.5;
+    padding-bottom: -20%;
+
+}
+
+#sub-section-heading {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    padding-bottom: -20%;
+
+    padding-left: 0px;
+}
+
+
+h3 {
+
+    font-size: 1.5em;
+    line-height: 1;
+    color: #000;
+
+}
+
+.white-section {
+
+    /* background: #313131; */
+    background: $color-black;
+    color: #000;
+
+}
+
+.colored-section {
+    background: #f3efe0;
+    color: $color-black;
+}
+
+#black-section {
+    background: #000;
+    color: $color-black;
+}
+
+#education,
+#skills {
+    padding-top: 7%;
+    color: $color-yellow-dark;
+    height: auto;
+
+
+}
+
+.skills-list {
+    font-family: 'Montserrat-Thin', sans-serif;
+    /*color: #efefef;*/
+    color: $color-text-grey;
+    font-size: 1em;
+    line-height: 1.5;
+    /* border: 1px red solid; */
+}
+
+.skills-list li {
+    margin-bottom: 16px;
+}
+
+.study-year {
+    color: $color-text-grey;
+    padding-top: 15px;
+}
+
+#helsinki {
+    color: $color-yellow-dark;
+}
+
+.break-line {
+    display: none;
+}
+
+#study-desc {
+    margin-bottom: 0px;
+}
+
+.bold-black {
+    color: #000;
+    font-size: 1em;
+    padding-top: 15px;
+    font-weight: 500;
+    font-family: 'Montserrat-Black', sans-serif;
+
+}
+
+.colleges {
+    font-family: 'Ubuntu-Black', sans-serif;
+    color: #000;
+    font-size: 1em;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.skills-stars ul>li .skill-score .glyphicon {
+    color: #DFE0E0;
+    font-size: 10px;
+}
+
+
+#about {
+    padding: 100px;
+    color: $color-yellow-dark;
+    height: auto;
+
+
+}
+
+#about h5 {
+    text-align: center;
+    color: $color-yellow-dark;
+}
+
+#contact {
+    color: $color-yellow-dark;
+}
+
+#contact .container {
+    padding-top: 4%;
+
+}
+
+#contact #section-heading {
+    padding-top: 25px;
+}
+
+#projects {
+    padding: 100px;
+    color: $color-yellow-dark;
+    height: auto;
+
+
+}
+
+.horizontal-separator {
+    display: none;
+    margin: 2 0px 0px;
+    border-color: #727878;
+    opacity: 0.2;
+    /* 727878 , cfcfcf*/
+    filter: alpha(opacity=20);
+
+}
+
+.project {
+
+    padding: 3% 6%;
+}
+
+.project-coloumn {
+    padding: 3% 2%;
+    text-align: center;
+
+}
+
+.project-card {
+
+    background-color: $color-black;
+    border-radius: 1px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 8px #ccc;
+    text-align: center;
+}
+
+#project-grid .card:hover {
+    transition: all 0.3s ease;
+    box-shadow: 12px 15px 20px 0px rgba(108, 128, 145, 0.15);
+}
+
+
+.details {
+    /* max-width: 100%; */
+    /* margin-left: -0.5em!important; */
+    /* text-align: center; */
+    width: 0px;
+
+}
+
+
+.project-lang {
+    color: #000;
+
+}
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: $color-yellow-dark;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #topBtn:hover {
+    background-color: #555;
+  }
+
+
+
+#footer {
+
+    padding-top: 7%;
+    height: auto;
+
+}
+
+.footer-link {
+    padding-left: 0px;
+
+
+}
+
+.profile img,
+.about-section img {
+    padding-right: 15px;
+}
+
+.profile p {
+    color: $color-text-grey;
+    ;
+}
+
+
+.social li {
+    color: $color-text-grey;
+    display: inline-block;
+    line-height: 2.5em;
+    max-width: 100%;
+    font-size: .8em;
+
+
+}
+
+/*Copyright*/
+#copyRight {
+    font-size: .8em;
+
+
+}
+
+.social ul {
+    color: $color-text-grey;
+    padding-left: 0px;
+
+}
+
+#social-link {
+    text-decoration: none;
+    color: $color-black;
+    font-size: .9em;
+
+}
+
+#social-link:hover {
+    color: $color-yellow-dark;
+
+}
+
+#footer {
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.profile {
+    margin-right: 0px;
+
+}
+
+.fa-heart {
+    color: $color-yellow-dark;
+}
+
+
+
+/*CONTACT Section*/
+.mui-form {
+    width: 100%;
+    margin-top: 20px;
+    /* margin: 0 auto;*/
+    vertical-align: middle;
+
+}
+
+.mui-form label {
+    color: #000;
+}
+
+.mui-form legend {
+    color: #000;
+}
+
+.mui-textfield>input,
+.mui-textfield {
+    border-bottom: 1px solid #000;
+}
+
+.mui-textfield>textarea {
+    border-bottom: 1px solid #000;
+
+}
+
+.mui-btn {
+    background-color: #ffbc45;
+}
+
+.btn-warning {
+    background: $color-yellow-dark;
+}
+
+@media (max-width: 1850px) {
+    .horizontal-separator {
+        display: block;
+        border-color: #131212;
+        opacity: 0.2;
+    }
+
+}
+
+@media (max-width:991px) {
+    ul.footer-link li {
+        max-width: 100%;
+        float: left;
+        font-size: .8em;
+        /* margin-left: 5px;
+        padding-left: 0px;
+        padding-right: 0px; */
+
+    }
+
+    .horizontal-separator {
+        display: block;
+        border-color: #131212;
+        opacity: 0.2;
+    }
+
+
+
+}
+
+@media (max-width: 767px) {
+    ul.footer-link li {
+        max-width: 100%;
+        float: left;
+        font-size: .8em;
+        /* padding-left: 0px;
+        padding-right: 0px; */
+        display: none;
+
+    }
+
+    .horizontal-separator {
+        display: block;
+        border-color: #131212;
+        opacity: 0.2;
+    }
+
+
+    #copyRight {
+        padding-left: 0px;
+    }
+
+
+}
+
+@media (max-width:576px) {
+    ul.footer-link li {
+
+        display: none;
+    }
+
+    #copyRight {
+        float: left;
+    }
+
+    #study-desc {
+        display: none;
+    }
+
+    .helsinki {
+        display: none;
+    }
+
+    .break-line {
+        display: block;
+
+    }
+
+
+}
+
+@media (max-width: 575px) {
+
+    .skills-list,
+    .skills-stars {
+        max-width: 45%;
+        padding:  2%; 
+
+    }
+
+    #skills,
+    #about,
+    #education {
+        padding-left: 35px;
+        padding-right: 35px;
+
+    }
+
+    #break-line {
+        display: block;
+    }
+
+    #projects {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .logo-box {
+        display: none;
+    }
+
+}
+
+@media (max-width:360px) {
+
+    #skills,
+    #about {
+        padding-left: 2px;
+        padding-right: 0px;
+
+    }
+
+    .skills-list,
+    .skills-stars {
+        max-width: 50%;
+        padding-right: 5px;
+
+    }
+
+    .about_me {
+        margin-top: 15px;
+    }
+
+    #big-heading {
+        font-size: 2em;
+    }
+
+    .about_me h4 {
+        display: none;
+    }
+
+    #projects {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #contact {
+        height: auto;
+    }
+    .logo-box {
+        display: none;
+    }
+
+}

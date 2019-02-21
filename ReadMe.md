@@ -1,2 +1,5 @@
 # Portfolio page
-New Portfolio page 2018, This is part of FCC/FreeCodeCamp Responsive Web Design Project. 
+This is my  Portfolio page where all my public projects are collected,
+ I use this project also as  FCC/FreeCodeCamp Responsive Web Design Project. 
+
+ 
