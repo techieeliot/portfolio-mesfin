@@ -39,7 +39,7 @@ body {
 
     height: auto;
     font-family: 'Montserrat', sans-serif;
-    /*font-family: 'Ubuntu', sans-serif;*/
+    
 }
 
 .container-fluid {
@@ -51,7 +51,6 @@ body {
     max-width: 1280px;
     /*Avoids horizontal scroll beyond the view port */
 
-    /* text-align: center; */
 }
 
 li {
@@ -68,7 +67,6 @@ li {
     font-family: 'Limelight', cursive;
     font-weight: 800;
     font-size: 45px;
-    /*color: #e28d05;*/
     color: $color-yellow;
     
 
@@ -164,16 +162,11 @@ section {
 
 .about_me {
     color: $color-black;
-    /*font-size: 8vh;*/
-   /* border: 3px solid #e28c05;*/
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-   /* z-index: 1;
-    width: 60%;
-    padding: 20px;
-    text-align: center;*/
+ 
 }
 
 #inline-project,#certeficate  a {
@@ -251,6 +244,7 @@ p {
             transform: translate(0);
         }
     }
+    
 
 #section-heading {
     text-align: center;
